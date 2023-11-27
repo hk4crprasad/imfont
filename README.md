@@ -29,7 +29,7 @@ imfont -i -f <image_folder> -o <output_file>
 ### Example
 
 ```bash
-imfont -f /path/to/folder -o output_image.cpp
+imfont -f /path/to/font.ttf -o output.h
 ```
 
 ### Interactive Mode
