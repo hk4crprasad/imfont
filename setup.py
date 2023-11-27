@@ -37,7 +37,7 @@ setup(
     },
     author='HK4CRPRASAD',
     author_email='hotahara12@gmail.com',
-    description='Font and image converter',
+    description='Imfont: a versatile Python tool for converting fonts and images into C++ arrays. Generate compact code for embedded systems or ImGui applications with rich console features. Simplify graphic resource integration. Created by HK4CRPRASAD. #Python #EmbeddedSystems #Imfont',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/hk4crprasad/imfont',
