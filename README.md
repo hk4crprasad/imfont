@@ -31,7 +31,9 @@ imfont -i -f <image_folder> -o <output_file>
 ```bash
 imfont -f /path/to/font.ttf -o output.h
 ```
-
+<p align="center">
+  
+  [![PIROOP](https://raw.githubusercontent.com/hk4crprasad/imfont/master/IMFONT.svg)](https://github.com/hk4crprasad/imfont)
 ### Interactive Mode
 
 Run the script without any arguments to enter interactive mode:
