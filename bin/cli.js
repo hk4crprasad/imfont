@@ -1,9 +1,16 @@
 #!/usr/bin/env node
+
 'use strict';
 
-const { run } = require('../lib/index');
+const run = require('../lib/index');
 
-run().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+async function main() {
+  try {
+    await run();
+  } catch (err) {
+    console.error(`Error: ${err.message}`);
+    process.exit(1);
+  }
+}
+
+main();

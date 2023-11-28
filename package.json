@@ -1,6 +1,6 @@
 {
   "name": "imfont",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A versatile tool for converting fonts and images into C++ arrays. Generate compact code for embedded systems or ImGui applications with rich console features.",
   "main": "lib/index.js",
   "scripts": {
@@ -27,12 +27,13 @@
   },
   "homepage": "https://github.com/hk4crprasad/imfont/tree/npm#readme",
   "dependencies": {
+    "axios": "^1.6.2",
     "colors": "^1.4.0",
     "webpack": "^5.89.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.1.1",
+    "mocha": "^10.2.0",
     "shelljs": "^0.8.1"
   }
 }
