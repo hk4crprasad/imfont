@@ -11,6 +11,8 @@ with open(os.path.join("imfont", ".version"), "r", encoding="utf8") as fh:
 
 install_requires = [
     'rich',
+    'setuptools',
+    'requests',
 ]
 
 # Create a table for rich output
